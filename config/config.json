@@ -17,7 +17,7 @@
     "username": "pfrbavwqbzdyzn",
     "password": "af84e4f07aa640d4318688e110cc365f54ed552e18a6917c1c790ebdfdc9a2a8",
     "database": "d1bgpt6gka7gms",
-    "host": "127.0.0.1",
+    "host": "ec2-184-72-238-22.compute-1.amazonaws.com",
     "dialect": "postgres"
   }
 }
