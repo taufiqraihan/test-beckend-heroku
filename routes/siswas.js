@@ -5,6 +5,7 @@ const { checkAuth } = require('../middlewares/auth');
 
 /* GET users listing. */
 router.get('/',checkAuth, function(req, res, next) {
+  console.log('tampilkan data siswa')
   models.Siswa.findAll().then(siswas => {
     res.status(200).json({message: "Read Data Siswa", data:siswas})
   }).catch(err => {

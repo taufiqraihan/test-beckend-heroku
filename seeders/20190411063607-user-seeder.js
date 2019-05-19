@@ -7,7 +7,9 @@ module.exports = {
     const password = bcrypt.hashSync('rahasia', 10);
     return queryInterface.bulkInsert('Users', [{
       uername: 'Taufiq',
-      password: password
+      password: password,
+      createdAt: new Date(),
+      updatedAt: new Date()
     }], {});
   },
 
